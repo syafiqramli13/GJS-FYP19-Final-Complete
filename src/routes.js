@@ -13,6 +13,7 @@ const Tool = React.lazy(() => import("./screens/PubTool"));
 const KerchangScanner = React.lazy(() =>
   import("./screens/PubKerchangScanner")
 );
+const Test = React.lazy(() => import("./screens/test"));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -23,15 +24,17 @@ const routes = [
   { path: "/Archive", exact: true, name: "Archive", component: Handcrafts },
   { path: "/Archive/Handcrafts", name: "Handcrafts", component: Handcrafts },
   { path: "/Archive/Tool", name: "Tool", component: Tool },
-  { path: "/GalleryPhoto", name: "Photo", component: Photo },
-  { path: "/Video", name: "Video", component: Video },
+  { path: "/Gallery", exact: true, name: "Gallery", component: Photo },
+  { path: "/Gallery/Photo", name: "Photo", component: Photo },
+  { path: "/Gallery/Video", name: "Video", component: Video },
   { path: "/Contact", name: "Contact", component: Contact },
   { path: "/Inquiries", name: "Inquiries", component: Inquiries },
   {
-    path: "/KerchangScanner",
-    name: "KerchangScanner",
+    path: "/Kerchang Scanner",
+    name: "Kerchang Scanner",
     component: KerchangScanner
-  }
+  },
+  { path: "/Test", name: "Test", component: Test }
 ];
 
 export default routes;

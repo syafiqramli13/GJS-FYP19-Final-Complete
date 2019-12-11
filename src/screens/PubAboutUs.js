@@ -188,22 +188,12 @@ class AboutUs extends Component {
                 </Carousel>
                 <Jumbotron fluid>
                   <h1 className=" text-center">
-                    Welcome to Jungle School Gombak!
+                    Welcome to Gombak Jungle School !
                   </h1>
                   <hr className="my-2" />
                   <p className="lead text-center">
                     Back to Basic! Love Nature, Love Life!
                   </p>
-                  {/* <p className="lead text-center">
-                    <Button
-                      className="btn-outline-primary btn-sm"
-                      onClick={() => this.toggleAccordion(0)}
-                      aria-expanded={this.state.accordion[0]}
-                      aria-controls="collapseOne"
-                    >
-                      Learn More
-                    </Button>
-                  </p> */}
 
                   {/* accordion */}
 
@@ -230,17 +220,11 @@ class AboutUs extends Component {
                           <div class="border border-primary rounded ">
                             <CardBody style={{ textAlign: "center" }}>
                               <p>
-                                JSG is a leadership experiential empowerment
+                                GJS is a leadership experiential empowerment
                                 program which uses nature i.e. rainforest in
-                                Malaysia as a venue. Hosted by Assistant Prof.
-                                Dr Norzalifa binti Zainal Abidin from
-                                International Islamic University Malaysia
-                                (IIUM), with the help of Major (R) Kalam Pie and
-                                the talented indigenous 'hidden gems' i.e master
-                                craftsmen and weavers, and indigenous jungle
-                                experts. Jungle school helps to empower the
-                                indigenous people in Gombak to share their
-                                cultural knowledge and expertise.
+                                Malaysia as a venue. Jungle school helps to
+                                empower the indigenous people in Gombak to share
+                                their cultural knowledge and expertise.
                               </p>
                               <p>
                                 The programs include survival skills of Orang

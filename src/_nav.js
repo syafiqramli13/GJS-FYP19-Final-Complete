@@ -1,18 +1,18 @@
 export default {
   items: [
+    // {
+    //   title: true,
+    //   name: "Public & Participant",
+    //   wrapper: {
+    //     element: "",
+    //     attributes: {}
+    //   },
+    //   class: "text-center"
+    // },
     {
-      title: true,
-      name: "Public & Participant",
-      wrapper: {
-        element: "",
-        attributes: {}
-      },
-      class: "text-center"
-    },
-    {
-      name: "AboutUs",
-      url: "/AboutUs",
-      icon: "icon-info"
+      name: "About Us",
+      url: "/About Us",
+      icon: "icon-home"
     },
     {
       name: "Activity",
@@ -20,35 +20,43 @@ export default {
       icon: "icon-game-controller"
     },
     {
-      name: "Archive",
-      url: "/Archive",
-      icon: " icon-notebook",
+      name: "Gallery",
+      url: "/Gallery",
+      icon: "icon-picture",
       children: [
         {
-          name: "Handcrafts",
-          url: "/Archive/Handcrafts",
-          icon: "icon-puzzle "
+          name: "Photo",
+          url: "/Gallery/Photo",
+          icon: "icon-picture"
         },
         {
-          name: "Tools",
-          url: "/Archive/Tool",
-          icon: "icon-wrench"
+          name: "Video Gallery",
+          url: "/Gallery/Video",
+          icon: "icon-film"
         }
       ]
     },
-    {
-      name: "Photo Gallery",
-      url: "/GalleryPhoto",
-      icon: "icon-picture"
-    },
-    {
-      name: "Video Gallery",
-      url: "/Video",
-      icon: "icon-film"
-    },
+    // {
+    //   name: "Archive",
+    //   url: "/Archive",
+    //   icon: " icon-notebook",
+    //   children: [
+    //     {
+    //       name: "Handcrafts",
+    //       url: "/Archive/Handcrafts",
+    //       icon: "icon-puzzle "
+    //     },
+    //     {
+    //       name: "Tools",
+    //       url: "/Archive/Tool",
+    //       icon: "icon-wrench"
+    //     }
+    //   ]
+    // },
+
     {
       name: "Kerchang's Scanner",
-      url: "/KerchangScanner",
+      url: "/Kerchang Scanner",
       icon: "icon-camera"
     },
     {
@@ -56,24 +64,29 @@ export default {
       url: "/Contact",
       icon: "icon-people"
     },
+    // {
+    //   name: "Inquiries",
+    //   url: "/Inquiries",
+    //   icon: "icon-pencil"
+    // },
+    // {
+    //   name: "Test",
+    //   url: "/Test",
+    //   icon: "icon-pencil"
+    // },
     {
-      name: "Inquiries",
-      url: "/Inquiries",
-      icon: "icon-pencil"
-    },
-    {
-      name: "GJS Facebook",
+      name: "Facebook",
       url: "https://www.facebook.com/JungleSchoolGombak/",
-      icon: "icon-social-facebook ",
+      icon: "icon-paper-plane",
       class: "mt-auto",
-      variant: "primary",
+      variant: "Info ",
       attributes: { target: "_blank", rel: "noopener" }
     },
     {
-      name: "GJS Instagram",
+      name: "Instagram",
       url: "https://www.instagram.com/jungleschoolgombak/?hl=en",
-      icon: "icon-social-instagram",
-      variant: "primary",
+      icon: "icon-paper-plane",
+      variant: "Info ",
       attributes: { target: "_blank", rel: "noopener" }
     }
   ]

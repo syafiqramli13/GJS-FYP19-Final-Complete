@@ -5,108 +5,108 @@ import { Card, CardBody, CardHeader, Col, Row } from "reactstrap";
 
 const photos = [
   {
-    src: "./assets/img/gallery/gjs1.jpg",
+    src: "../assets/img/gallery/gjs1.jpg",
     altText: "Slide 1",
     caption: "Slide 1",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs2.jpg",
+    src: "../assets/img/gallery/gjs2.jpg",
     altText: "Slide 2",
     caption: "Slide 2",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs3.jpg",
+    src: "../assets/img/gallery/gjs3.jpg",
     altText: "Slide 3",
     caption: "Slide 3",
     width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs4.jpg",
+    src: "../assets/img/gallery/gjs4.jpg",
     altText: "Slide 4",
     caption: "Slide 4",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs5.jpg",
+    src: "../assets/img/gallery/gjs5.jpg",
     altText: "Slide 5",
     caption: "Slide 5",
     width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs6.jpg",
+    src: "../assets/img/gallery/gjs6.jpg",
     altText: "Slide 6",
     caption: "Slide 6",
     width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs7.jpg",
+    src: "../assets/img/gallery/gjs7.jpg",
     altText: "Slide 7",
     caption: "Slide 7",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs8.jpg",
+    src: "../assets/img/gallery/gjs8.jpg",
     altText: "Slide 8",
     caption: "Slide 8",
     width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs9.jpg",
+    src: "../assets/img/gallery/gjs9.jpg",
     altText: "Slide 9",
     caption: "Slide 9",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs10.jpg",
+    src: "../assets/img/gallery/gjs10.jpg",
     altText: "Slide 10",
     caption: "Slide 10",
-    width: 5,
+    width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs11.jpg",
+    src: "../assets/img/gallery/gjs11.jpg",
     altText: "Slide 11",
     caption: "Slide 11",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs12.jpg",
+    src: "../assets/img/gallery/gjs12.jpg",
     altText: "Slide 12",
     caption: "Slide 12",
-    width: 5,
+    width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs13.jpg",
+    src: "../assets/img/gallery/gjs13.jpg",
     altText: "Slide 13",
     caption: "Slide 13",
     width: 5,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs14.jpg",
+    src: "../assets/img/gallery/gjs14.jpg",
     altText: "Slide 14",
     caption: "Slide 14",
-    width: 5,
+    width: 4,
     height: 3
   },
   {
-    src: "./assets/img/gallery/gjs15.jpg",
+    src: "../assets/img/gallery/gjs15.jpg",
     altText: "Slide 15",
     caption: "Slide 15",
-    width: 5,
+    width: 4,
     height: 3
   }
 ];
